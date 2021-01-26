@@ -71,7 +71,7 @@
 @media (max-width: 767px) {
     .col-sm-1 {
       float: left;
-      margin-bottom: 10 px;
+      margin-bottom: 10px;
       border: 1px solid green;
       background-color: #1cdd8d7e;
     }
