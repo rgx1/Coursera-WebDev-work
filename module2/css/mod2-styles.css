@@ -23,6 +23,7 @@
     width: 100%;
   }
   
+  
   /* section titles for menu */ 
   .title{
       float: right;
@@ -32,7 +33,9 @@
       font-weight: 600;
       font-family: Georgia, 'Times New Roman', Times, serif;
       background-color: bisque;
-      border: 1px solid green;
+      border: 2px solid gray;
+      margin-top: -2px;
+      margin-right:-2px;
   }
 
 /* larger displays, desktop */ 
@@ -42,7 +45,7 @@
       float: left;
       height: 220px;
       margin: 10px; 
-      border: 1px solid green; 
+      border: 2px solid gray; 
       background-color: #1cdd8d7e;
     }
     .col-lg-1 {
@@ -56,7 +59,7 @@
       float: left;
       height: 200px; 
       margin: 10px;
-      border: 1px solid green;
+      border: 2px solid gray;
       background-color: #1cdd8d7e;
     }
     .col-md-1 {
@@ -71,11 +74,11 @@
 @media (max-width: 767px) {
     .col-sm-1 {
       float: left;
-      margin-bottom: 10px;
-      border: 1px solid green;
+      margin: 10px;
+      border: 2px solid gray;
       background-color: #1cdd8d7e;
     }
     .col-sm-1 {
-      width: 100.0%;
+      width: 96.0%;
     }
 }
